@@ -1,0 +1,29 @@
+.conteiner{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: rgba(189, 161, 39, 0.9);
+}
+
+ul{
+    list-style: none;
+    margin-right: 20px;
+    padding: auto;
+    flex-direction: row;
+    display: flex;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: rgba(236, 233, 228);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a.active{
+    color: rgba(138, 76, 97);
+    text-decoration: none;
+}
